@@ -1,0 +1,296 @@
+element.style {
+}
+:lang(en) {
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+head {
+    display: none;
+}
+html.artdeco {
+    -webkit-font-smoothing: antialiased;
+}
+:root {
+    --tenor-gif-logo: url(/aero-v1/sc/h/d2kkhofmuuxleioyci47pssdd);
+}
+:root {
+    --msg-reactions-emoji-plus-icon: url(/aero-v1/sc/h/dr1b79i84eh8czy2ijk7i9z7c);
+}
+:root {
+    --scaffold-layout-list-detail-bottom-offset: 50px;
+}
+:root {
+    --scaffold-layout-gutter: 1.2rem;
+    --scaffold-layout-none-max-width: 576px;
+    --scaffold-layout-md-max-width: 720px;
+    --scaffold-layout-lg-max-width: 960px;
+    --scaffold-layout-xl-max-width: 1128px;
+    --scaffold-layout-sidebar-width: minmax(0, 300px);
+    --scaffold-layout-sidebar-narrow-width: minmax(0, 225px);
+    --scaffold-layout-main-width: minmax(0, auto);
+    --scaffold-layout-aside-width: minmax(0, 300px);
+}
+:root {
+    --org-addon-bing-logo: url(/aero-v1/sc/h/a962xew3q1hfeb3mlcjj1ux8o);
+    --org-addon-bing-logo-v2: url(/aero-v1/sc/h/e9goo6gv8o41no8si6f11hrup);
+}
+.theme--dark, :root {
+    --msg-bluejeans-virtual-meeting-icon: url(/aero-v1/sc/h/4pwxmk5zdrww2xgpzh1s6w8wo);
+    --msg-teams-virtual-meeting-icon: url(/aero-v1/sc/h/anrbpluz8oa3k1ijq55l0hbas);
+    --msg-zoom-virtual-meeting-icon: url(/aero-v1/sc/h/6jeeyg4s09feux6cv5aanxzvk);
+}
+:root {
+    --artdeco-button-primary-inverse-static-background-color: var(--voyager-color-action-on-dark);
+    --artdeco-button-primary-inverse-static-color: var(--voyager-color-action-stick);
+    --artdeco-button-primary-inverse-hover-background-color: var(--voyager-color-action-on-dark);
+    --artdeco-button-primary-inverse-hover-color: var(--voyager-color-action-stick-hover);
+    --artdeco-button-primary-inverse-active-background-color: var(--voyager-color-action-on-dark-active);
+    --artdeco-button-primary-inverse-active-color: var(--voyager-color-action-stick-active);
+    --artdeco-button-primary-inverse-disabled-background-color: var(--color-background-on-dark-disabled);
+    --artdeco-button-primary-inverse-disabled-color: var(--color-text-on-dark-disabled);
+    --artdeco-button-secondary-inverse-static-background-color: var(--color-background-none-on-dark);
+    --artdeco-button-secondary-inverse-static-border-color: var(--color-border-on-dark);
+    --artdeco-button-secondary-inverse-static-color: var(--color-text-on-dark);
+    --artdeco-button-secondary-inverse-hover-background-color: var(--color-background-none-on-dark-hover);
+    --artdeco-button-secondary-inverse-hover-border-color: var(--color-border-on-dark);
+    --artdeco-button-secondary-inverse-hover-color: var(--color-text-on-dark);
+    --artdeco-button-secondary-inverse-active-background-color: var(--color-background-none-on-dark-active);
+    --artdeco-button-secondary-inverse-active-border-color: var(--color-border-on-dark-active);
+    --artdeco-button-secondary-inverse-active-color: var(--color-text-on-dark-active);
+    --artdeco-button-secondary-inverse-disabled-background-color: var(--color-background-on-dark-disabled);
+    --artdeco-button-secondary-inverse-disabled-border-color: var(--color-transparent);
+    --artdeco-button-secondary-inverse-disabled-color: var(--color-text-on-dark-disabled);
+    --artdeco-button-tertiary-inverse-static-background-color: var(--color-background-none-on-dark);
+    --artdeco-button-tertiary-inverse-static-color: var(--color-text-on-dark);
+    --artdeco-button-tertiary-inverse-hover-background-color: var(--color-background-none-tint-on-dark-hover);
+    --artdeco-button-tertiary-inverse-hover-color: var(--color-text-on-dark);
+    --artdeco-button-tertiary-inverse-active-background-color: var(--color-background-none-tint-on-dark-active);
+    --artdeco-button-tertiary-inverse-active-color: var(--color-text-on-dark-active);
+    --artdeco-button-tertiary-inverse-disabled-background-color: var(--color-background-none-on-dark);
+    --artdeco-button-tertiary-inverse-disabled-color: var(--color-text-on-dark-disabled);
+    --artdeco-button-primary-inverse-premium-disabled-background-color: var(--color-background-on-dark-disabled);
+    --artdeco-button-primary-inverse-premium-disabled-color: var(--color-text-on-dark-disabled);
+    --artdeco-button-primary-default-static-background-color: var(--color-action);
+    --artdeco-button-primary-default-static-color: var(--color-label-knockout);
+    --artdeco-button-primary-default-hover-background-color: var(--color-action-hover);
+    --artdeco-button-primary-default-hover-color: var(--color-label-knockout-hover);
+    --artdeco-button-primary-default-active-background-color: var(--color-action-active);
+    --artdeco-button-primary-default-active-color: var(--color-label-knockout-active);
+    --artdeco-button-primary-default-disabled-background-color: var(--color-background-disabled);
+    --artdeco-button-primary-default-disabled-color: var(--color-label-disabled);
+    --artdeco-button-secondary-default-static-background-color: var(--color-background-transparent);
+    --artdeco-button-secondary-default-static-border-color: var(--color-action);
+    --artdeco-button-secondary-default-static-color: var(--color-action);
+    --artdeco-button-secondary-default-hover-background-color: var(--color-background-action-transparent-hover);
+    --artdeco-button-secondary-default-hover-border-color: var(--color-action-hover);
+    --artdeco-button-secondary-default-hover-color: var(--color-action-hover);
+    --artdeco-button-secondary-default-active-background-color: var(--color-background-action-transparent-active);
+    --artdeco-button-secondary-default-active-border-color: var(--color-action-active);
+    --artdeco-button-secondary-default-active-color: var(--color-action-active);
+    --artdeco-button-secondary-default-disabled-background-color: var(--color-background-disabled);
+    --artdeco-button-secondary-default-disabled-border-color: var(--color-background-transparent);
+    --artdeco-button-secondary-default-disabled-color: var(--color-label-disabled);
+Show all properties (36 more)
+}
+:root {
+    font-family: var(--artdeco-reset-typography-font-family-sans);
+}
+.hue-web__artdeco-migration-scope--revert, :root {
+    --artdeco-reset-typography-get-color-black-90: rgba(0, 0, 0, 0.9);
+    --artdeco-reset-typography-font-family-sans: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+    --artdeco-reset-typography-font-size-65-percent: 62.5%;
+    --artdeco-reset-typography-font-weight-bold: 600;
+    --artdeco-reset-typography-font-weight-light: 200;
+    --artdeco-reset-typography-font-weight-normal: 400;
+    --artdeco-reset-typography-font-family-inherit: inherit;
+    --artdeco-reset-typography-font-style-italic: italic;
+    --artdeco-reset-typography-font-style-normal: normal;
+    --artdeco-reset-link-text-decoration-none: none;
+    --artdeco-reset-link-font-weight-bold: 600;
+    --artdeco-reset-link-background-color-transparent: transparent;
+    --artdeco-reset-link-border-zero: 0;
+    --artdeco-reset-link-color-blue7: var(--blue-70, #0073b1);
+    --artdeco-reset-link-text-decoration-underline: underline;
+    --artdeco-reset-link-color-blue8: var(--blue-70, #006097);
+    --artdeco-reset-link-color-blue9: var(--blue-80, #004b7c);
+    --artdeco-reset-link-color-purple7: var(--purple-70, #665ed0);
+    --artdeco-reset-link-color-purple8: var(--purple-70, #544bc2);
+    --artdeco-reset-link-color-purple9: var(--purple-80, #4034b0);
+    --artdeco-typography-mono: SF Mono, Consolas, Roboto Mono, Noto Mono, Droid Mono, Fira Mono, Ubuntu Mono, Oxygen Mono, Lucida Console, Menlo, Monaco, monospace;
+    --artdeco-typography-sans: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+    --artdeco-typography-serif: Noto Serif, Droid Serif, Georgia, serif;
+    --artdeco-typography-ar: Geeza Pro, Arial, Calibri, Noto Nashk Arabic, Noto Sans Arabic;
+    --artdeco-typography-bn: Kohinoor Bangla, Nirmala UI, Noto Sans Bengali;
+    --artdeco-typography-fa: Geeza Pro, Arial, Calibri, Noto Nashk Arabic, Noto Sans Arabic;
+    --artdeco-typography-he: Segoe UI, Arial Hebrew, Lucida Grande, Arial, Noto Sans Hebrew;
+    --artdeco-typography-hi: Kohinoor Devanagari, Mangal, Nirmala UI, Noto Sans Devanagari;
+    --artdeco-typography-ja: Meiryo, Yu Gothic, Hiragino Sans, Hiragino Kaku Gothic Pro, Noto Sans Japanese;
+    --artdeco-typography-ko: Malgun Gothic, Apple SD Gothic Neo, Noto Sans Korean;
+    --artdeco-typography-mr: Kohinoor Devanagari, Mangal, Nirmala UI, Noto Sans Devanagari;
+    --artdeco-typography-pa: MuktaMahee Regular, Raavi, Nirmala UI, Noto Sans Gurmukhi;
+    --artdeco-typography-te: Kohinoor Telugu, Nirmala UI, Noto Sans Telugu;
+    --artdeco-typography-th: Leelawadee, Thonburi;
+    --artdeco-typography-zh: Microsoft Yahei, PingFang SC, PingFang TC, Hiragino Sans, Hiragino Kaku Gothic Pro, Noto Sans Simplified Chinese, Noto Sans Traditional Chinese;
+    --artdeco-typography-zh-cn: PingFang SC, Microsoft Yahei, Hiragino Kaku Gothic Pro, Noto Sans Simplified Chinese;
+    --artdeco-typography-zh-tw: PingFang TC, Microsoft JhengHei, Noto Sans Traditional Chinese;
+}
+.hue-web__artdeco-migration-scope--revert, :root {
+    --artdeco-reset-form-position-relative: relative;
+    --artdeco-reset-form-vertical-align-middle: middle;
+    --artdeco-reset-form-display-block: block;
+    --artdeco-reset-form-black-90: rgba(0, 0, 0, 0.9);
+    --artdeco-reset-form-label-margin: 1.2rem 0 0.3rem;
+    --artdeco-reset-form-label-opacity: 0.35;
+    --artdeco-reset-form-webkit-appearance-textfield: textfield;
+    --artdeco-reset-form-webkit-appearance-none: none;
+    --artdeco-reset-form-height-auto: auto;
+    --artdeco-reset-form-padding-top-point-seven-rem: 0.7rem;
+    --artdeco-reset-form-rc-pointer-events: none;
+    --artdeco-reset-form-rc-opacity: 0;
+    --artdeco-reset-form-rc-margin: 1.6rem 0.2rem 0 0;
+    --artdeco-reset-form-rc-position: absolute;
+    --artdeco-reset-form-rc-before-after-content: " ";
+    --artdeco-reset-checkbox-rc-after-content: "\2713";
+    --artdeco-reset-form-rc-label-display-block: block;
+    --artdeco-reset-form-rc-label-line-height-2-rem: 2rem;
+    --artdeco-reset-form-rc-label-margin-bottom-zero: 0;
+    --artdeco-reset-form-rc-label-padding-zero: 0;
+    --artdeco-reset-form-rc-label-position-relative: relative;
+    --artdeco-reset-form-rc-label-padding-left-2point8-rem: 2.8rem;
+    --artdeco-reset-forms-input-transition-duration: 334ms;
+    --artdeco-reset-forms-input-transition-property: border-color, box-shadow;
+    --artdeco-reset-forms-input-box-shadow: none;
+    --artdeco-reset-forms-input-border-radius: 0.2rem;
+    --artdeco-reset-forms-input-border: 0.1rem solid rgba(0, 0, 0, 0.6);
+    --artdeco-reset-forms-input-padding: 0 1rem;
+    --artdeco-reset-forms-input-width: 100%;
+    --artdeco-reset-forms-input-height: 3.2rem;
+    --artdeco-reset-forms-input-box-sizing: border-box;
+    --artdeco-reset-forms-input-background-color: transparent;
+    --artdeco-reset-forms-input-color: rgba(0, 0, 0, 0.9);
+    --artdeco-reset-forms-input-placeholder-color: rgba(0, 0, 0, 0.6);
+    --artdeco-reset-forms-input-blue: var(--blue-70, #0073b1);
+    --artdeco-reset-forms-input-focus-box-shadow: 0 0 0 0.1rem var(--blue-70, #0073b1);
+    --artdeco-reset-forms-input-disabled-hover-border-color: rgba(0, 0, 0, 0.6);
+    --artdeco-reset-forms-input-disabled-opacity: 0.45;
+    --artdeco-reset-forms-input-error: var(--system-red-70, #d11124);
+    --artdeco-reset-forms-font-weight: 400;
+    --artdeco-reset-forms-font-size: 1.4rem;
+    --artdeco-reset-forms-line-height: 1.42857;
+    --artdeco-reset-forms-select-appearance-none: none;
+    --artdeco-reset-forms-select-box-shadow-none: none;
+    --artdeco-reset-forms-select-outline-zero: 0;
+    --artdeco-reset-forms-select-height-3point2-rem: 3.2rem;
+    --artdeco-reset-forms-select-background-transparent: transparent;
+    --artdeco-reset-forms-select-position-relative: relative;
+    --artdeco-reset-forms-select-zindex-two: 2;
+    --artdeco-reset-forms-select-background-image: url(/aero-v1/sc/h/cwn0a0e7hog2i33c88ucrvot5);
+Show all properties (11 more)
+}
+.hue-web__artdeco-migration-scope--revert, :root {
+    --artdeco-reset-base-margin-zero: 0;
+    --artdeco-reset-base-padding-zero: 0;
+    --artdeco-reset-base-border-zero: 0;
+    --artdeco-reset-base-font-size-hundred-percent: 100%;
+    --artdeco-reset-base-font-weight-bold: bold;
+    --artdeco-reset-base-font-style-italic: italic;
+    --artdeco-reset-base-outline-zero: 0;
+    --artdeco-reset-base-outline-none: none;
+    --artdeco-reset-base-line-height-one: 1;
+    --artdeco-reset-base-display-block: block;
+    --artdeco-reset-base-list-style-none: none;
+    --artdeco-reset-base-quotes-none: none;
+    --artdeco-reset-base-vertical-align-baseline: baseline;
+    --artdeco-reset-base-vertical-align-middle: middle;
+    --artdeco-reset-base-background-transparent: transparent;
+    --artdeco-reset-base-opacity-zero: 0;
+    --artdeco-reset-base-top-zero: 0;
+    --artdeco-reset-base-position-absolute: absolute;
+    --artdeco-reset-base-text-decoration-none: none;
+    --artdeco-reset-base-text-decoration-line-through: line-through;
+    --artdeco-reset-base-border-collapse-collapse: collapse;
+    --artdeco-reset-base-get-color-black: var(--black, #000);
+    --artdeco-reset-base-background-color-ff9: #ff9;
+    --artdeco-reset-base-border-spacing-zero: 0;
+    --artdeco-reset-base-cursor-help: help;
+    --artdeco-reset-base-content-none: none;
+    --artdeco-reset-base-left-minus-hundred-px: -100px;
+    --artdeco-reset-base-border-thickness-1-px: 1px;
+    --artdeco-reset-base-border-style-dotted: dotted;
+}
+:root {
+    --hue-web-svg-display-light: block;
+    --hue-web-svg-display-dark: none;
+    --black: #000;
+    --black-a90: rgb(0 0 0 / .9);
+    --black-a75: rgb(0 0 0 / .75);
+    --black-a60: rgb(0 0 0 / .6);
+    --black-a45: rgb(0 0 0 / .45);
+    --black-a30: rgb(0 0 0 / .3);
+    --black-a15: rgba(0, 0, 0, 0.15);
+    --black-a12: rgba(0, 0, 0, 0.12);
+    --black-a08: rgba(0, 0, 0, 0.08);
+    --black-a04: rgba(0, 0, 0, 0.04);
+    --white: #fff;
+    --white-a90: rgb(255 255 255 / .9);
+    --white-a85: hsla(0, 0%, 100%, 0.85);
+    --white-a75: rgb(255 255 255 / .75);
+    --white-a70: hsla(0, 0%, 100%, 0.7);
+    --white-a60: rgb(255 255 255 / .6);
+    --white-a55: hsla(0, 0%, 100%, 0.55);
+    --white-a40: hsla(0, 0%, 100%, 0.4);
+    --white-a25: hsla(0, 0%, 100%, 0.25);
+    --white-a18: hsla(0, 0%, 100%, 0.18);
+    --white-a12: hsla(0, 0%, 100%, 0.12);
+    --white-a06: hsla(0, 0%, 100%, 0.06);
+    --blue-10: #f6fbff;
+    --blue-20: #e8f3ff;
+    --blue-30: #d2e9ff;
+    --blue-40: #aad6ff;
+    --blue-50: #71b7fb;
+    --blue-50-a20: rgba(112, 181, 249, 0.2);
+    --blue-50-a30: rgba(112, 181, 249, 0.3);
+    --blue-50-a40: rgba(112, 181, 249, 0.4);
+    --blue-60: #378fe9;
+    --blue-70: #0a66c2;
+    --blue-70-a30: rgba(10, 102, 194, 0.3);
+    --blue-70-a40: rgba(10, 102, 194, 0.4);
+    --blue-70-a50: rgba(10, 102, 194, 0.5);
+    --blue-80: #004182;
+    --blue-90: #053059;
+    --cool-gray-10: #f8fafd;
+    --cool-gray-20: #edf3f8;
+    --cool-gray-30: #dde7f1;
+    --cool-gray-40: #c2d3e4;
+    --cool-gray-50: #9eb5ca;
+    --cool-gray-60: #788fa5;
+    --cool-gray-70: #56687a;
+    --cool-gray-80: #38434f;
+    --cool-gray-85: #293138;
+    --cool-gray-90: #293037;
+    --warm-gray-10: #fbfaf8;
+Show all properties (1412 more)
+}
+html {
+    font-size: 62.5%;
+}
+html {
+    font-size: var(--artdeco-reset-typography-font-size-65-percent);
+}
+abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, dd, del, details, dfn, div, dl, dt, em, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, summary, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+    margin: var(--artdeco-reset-base-margin-zero);
+    padding: var(--artdeco-reset-base-padding-zero);
+    border: var(--artdeco-reset-base-border-zero);
+    font-size: var(--artdeco-reset-base-font-size-hundred-percent);
+    vertical-align: var(--artdeco-reset-base-vertical-align-baseline);
+    background: var(--artdeco-reset-base-background-transparent);
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
